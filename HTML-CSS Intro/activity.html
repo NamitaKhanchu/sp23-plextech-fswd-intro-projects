@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="website.css">
         <link rel="icon" type="image/x-icon" href="./images/Unknown.png">
     </head>
-    <body style="background-color:aquamarine">
-        <div class="header">
-            <h1 style="text-align: center; background-color: white; font-style: oblique;">Morning</h1>
+    <body style="background-color:aquamarine" id="bodyId">
+        <div class="header" id="headerId" style="background-color: white;">
+            <h1 style="text-align: center; font-style: oblique;">Morning</h1>
         </div>
 
        <div class="seperate"> </div>
@@ -28,6 +28,34 @@
        <div class="header" style="width: 14000px; float:left; height:200px;">
             <h1>Where To Next</h1>
        </div>
+
+       <button onclick="dark()">Dark mode</button>
+       <button onclick="light()">Light mode</button>
        
+       <!-- Script -->
+       <script>
+            function dark() {
+                var bodyColor = document.getElementById("bodyId");
+                bodyColor.style.backgroundColor = "#ff7f50";
+
+                var headerColor = document.getElementById("headerId");
+                headerColor.style.backgroundColor = "#808080";
+                headerColor.style.color = "#FFFFFF";
+
+
+
+
+            }
+
+            function light() {
+                var bodyColor = document.getElementById("bodyId");
+                bodyColor.style.backgroundColor = "#7fffd4";
+
+                var headerColor = document.getElementById("headerId");
+                headerColor.style.backgroundColor = "#FFFFFF";
+                headerColor.style.color = "#000000";
+
+            }
+       </script>
     </body>
 </html>
