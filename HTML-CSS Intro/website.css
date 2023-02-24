@@ -1,0 +1,14 @@
+.container {
+    display: "table-cell";
+}
+.aside {
+    background-color: blue;
+}
+
+.article {
+    background-color:burlywood;
+}
+
+.header {
+    background-color: aliceblue;
+}

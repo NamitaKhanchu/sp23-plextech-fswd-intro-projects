@@ -46,3 +46,91 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.redExample3 {
+  width: 80px;
+  background-color: red;
+}
+
+.emptyExample4 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  background-color: red;
+}
+
+.emptyExample5 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.redExample5 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.emptyExample6 {
+  display: flex;
+  flex: 1;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueExample6 {
+  width: 80px;
+  height: 60px;
+  background-color: blue;
+}
+
+.emptyExample7 {
+  display: flex;
+  flex: 1;
+  background-color: blue;
+}
+
+.redExample7 {
+  width:80px;
+  height:60px;
+  background-color: red;
+}
+
+.greenExample7 {
+  height:20px;
+  display:flex;
+  flex:1;
+  align-self: center;
+  background-color: green;
+}
+
+.orangeExample {
+  height: 60px;
+  width: 80px;
+  background-color: orange;
+}
+
+.greenExample {
+  flex: 1;
+  background-color: green;
+}
+
+.orangeExample1 {
+  flex: 1;
+  background-color: orange;
+}
+
+.greenExample1 {
+  height: 60px;
+  width: 20px;
+  background-color: green;
+}
