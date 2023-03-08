@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "create-react-ap": "^1.0.1"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.8.2"
+  }
+}
